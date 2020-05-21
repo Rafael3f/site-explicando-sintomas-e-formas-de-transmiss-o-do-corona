@@ -1,0 +1,84 @@
+body{
+  background-image: url('../img/coronavirus.jpg');
+  background-size: auto 100vh; 
+  font-family: 'Source Code Pro', monospace;
+  height: 100vh;
+  font-size: 12px;
+  color: #FF8C00;
+}
+
+ .mascara {
+	  width: 180px;
+  	  height: 180px;
+}
+
+/*se a tela tiver pelo menos 400px vai carregar estes estilos*/
+@media(min-width: 400px){
+  body{
+    font-size: 14px;
+  }
+}
+
+/* breakpoint */ 
+@media(min-width: 600px){
+  body{
+    font-size: 18px;
+  }
+}
+
+/* breakpoint */ 
+@media(min-width:1200px){
+  body{
+    font-size: 20px;
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.titulo_site,
+.subtitulo{
+  	text-align: center;
+}
+
+
+.titulo_site{
+	 font-size: 4em;
+}
+
+.subtitulo{
+	 font-size: 2.4em;
+}
