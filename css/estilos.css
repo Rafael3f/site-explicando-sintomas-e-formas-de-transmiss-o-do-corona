@@ -7,9 +7,14 @@ body{
   color: #FF8C00;
 }
 
+img{
+  border-radius: 20px;
+}
  .mascara {
 	  width: 180px;
-  	  height: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
 }
 
 /*se a tela tiver pelo menos 400px vai carregar estes estilos*/
@@ -72,6 +77,7 @@ a:hover{
 .titulo_site,
 .subtitulo{
   	text-align: center;
+  	margin-top: 0;
 }
 
 
