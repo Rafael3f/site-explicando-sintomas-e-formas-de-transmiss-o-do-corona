@@ -7,9 +7,7 @@ body{
   color: #FF8C00;
 }
 
-img{
-  border-radius: 20px;
-}
+
  .mascara {
 	  width: 180px;
     height: 180px;
@@ -87,4 +85,8 @@ a:hover{
 
 .subtitulo{
 	 font-size: 2.4em;
+}
+
+img{
+  border-radius: 20px;
 }
